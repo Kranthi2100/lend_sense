@@ -1,4 +1,6 @@
-export const SET_DATA = 'SET_DATA';
-export const SET_TIME = 'SET_TIME';
-export const SET_KEYWORD = 'SET_KEYWORD';
-export const SET_PAGE = 'SET_PAGE'
+export const SET_GRAPH_DATA = 'SET_GRAPH_DATA';
+export const SET_FILTER_TIME = 'SET_FILTER_TIME';
+export const SET_FILTER_KEYWORD = 'SET_FILTER_KEYWORD';
+export const SET_FILTER_PAGE = 'SET_FILTER_PAGE'
+export const SET_FILTER_PAGELIMIT = 'SET_FILTER_PAGELIMIT'
+export const SET_TABLE_DATA = 'SET_TABLE_DATA';

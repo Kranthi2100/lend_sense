@@ -1,4 +1,4 @@
-import { SET_GRAPH_DATA } from "../actions/type";
+import { SET_TABLE_DATA } from "../actions/type";
 
 const initialState = {
  data: []
@@ -7,7 +7,7 @@ const initialState = {
 export default (state = initialState, action) => {
     switch (action.type) {
 
-        case SET_GRAPH_DATA:
+        case SET_TABLE_DATA:
             return { 
                 ...state,
                  data: action.data

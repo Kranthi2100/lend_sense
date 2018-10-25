@@ -1,4 +1,4 @@
-import {SET_DATA} from './type';
+import {SET_GRAPH_DATA} from './type';
 
 export const getGraphDataFromServer = () => {
     return (dispatch) => {
@@ -6,7 +6,7 @@ export const getGraphDataFromServer = () => {
             .then(res => res.json())
             .then(data => {
                 dispatch({
-                    type: SET_DATA,
+                    type: SET_GRAPH_DATA,
                     data: data
                 })
             })
