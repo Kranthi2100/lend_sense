@@ -80,7 +80,7 @@ const DATASET_CONFIG = {
   fill: true,
   lineTension: 0.5,
   backgroundColor: 'rgba(0,0,0,0)',
-  borderWidth: 3.4,
+  borderWidth: 2.5,
   pointBorderColor: 'rgba(255,255,255,1)',
   pointBackgroundColor: 'rgb(39,39,39)',
   pointBorderWidth: 2,

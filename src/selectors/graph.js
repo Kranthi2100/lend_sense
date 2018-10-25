@@ -23,11 +23,12 @@ const traverse = (data) => {
     };
 }
 
+const filterTimeMap = new Map();
+filterTimeMap.set("2 days", 5);
+filterTimeMap.set("4 days", 3);
+filterTimeMap.set("one week", 0);
+
 const filterTime = (_data, timeFilter) => {
-    const filterTimeMap = new Map();
-    filterTimeMap.set("one week", 5);
-    filterTimeMap.set("two weeks", 3);
-    filterTimeMap.set("three weeks", 0);
 
     let shrinkArrayBy = filterTimeMap.get(timeFilter);
 

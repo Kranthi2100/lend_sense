@@ -5,7 +5,7 @@ import {
 } from '../actions/type';
 
 const initialState = {
-    timeFilter: "three weeks",
+    timeFilter: "one week",
     keywordFilter: "all keywords",
     currentPage: "1"
 }

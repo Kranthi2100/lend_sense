@@ -22,9 +22,9 @@ class GraphContainer extends Component {
   render() {
 
     const timeFilter = [
-      'one week',
-      'two weeks',
-      'three weeks'
+      '2 days',
+      '4 days',
+      'one week'
     ]
 
     return (
