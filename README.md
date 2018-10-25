@@ -1,6 +1,6 @@
 ## Setup
  ### Quick Start 
- ### install dependencies
+ ### Install dependencies
   `yarn install`
- ### start development server 
+ ### Start development server 
   `yarn start`

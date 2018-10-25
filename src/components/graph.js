@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import { Line } from 'react-chartjs-2';
+import _ from 'lodash';
 
 export class Graph extends Component {
+  shouldComponentUpdate(nextProps, nextState){
+    if(this.props.selected === nextProps.selected &&
+      _.isEqual(this.props.data.sort(),nextProps.data.sort()))
+      return false;
+    return true;
+  }
   render() {
     const data = (canvas) => {
       canvas.style.backgroundColor = 'rgba(0, 0, 0, 0)';

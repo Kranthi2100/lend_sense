@@ -7,6 +7,7 @@ export class ItemPagination extends Component {
   handlePageClick(page){
     this.props.setCurrentPageFilter(page.selected + 1);
   }
+  
   render() {
     return (
       <div className="pagination__container">
